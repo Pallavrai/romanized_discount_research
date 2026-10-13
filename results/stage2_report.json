@@ -1,0 +1,48 @@
+{
+  "source_sentences": 10000,
+  "changed_by_nfc_dev": 0,
+  "changed_by_nfc_hum": 0,
+  "changed_by_nfc_dev_raw": 0,
+  "changed_by_nfc_hum_raw": 0,
+  "changed_by_lowercasing_hum": 0,
+  "dropped_under_5_words": 1153,
+  "remaining_sentences": 8847,
+  "remaining_dev_words": 174017,
+  "counted_but_not_filtered": {
+    "duplicate_dev_sentences": 18,
+    "dev_with_latin_letters": 274,
+    "dev_with_digits": 1654,
+    "dev_with_zero_width_joiners": 207,
+    "hum_word_count_differs_from_dev": 80
+  },
+  "xlit": {
+    "beam_width": 4,
+    "model_url": "https://github.com/AI4Bharat/IndicXlit/releases/download/v1.0/indicxlit-indic-en-v1.0.zip",
+    "model_version": "v1.0",
+    "distinct_words": 22446,
+    "variants": {
+      "xlit": {
+        "rescore": false,
+        "candidates_per_word": 1,
+        "empty_outputs": 0,
+        "parity_checked_sentences": 20,
+        "parity_mismatches": 0
+      },
+      "xlit_rescored": {
+        "rescore": true,
+        "candidates_per_word": 4,
+        "empty_outputs": 0,
+        "parity_checked_sentences": 20,
+        "parity_mismatches": 0
+      }
+    },
+    "seconds": 268,
+    "versions": {
+      "python": "3.8.20",
+      "torch": "2.4.1",
+      "fairseq": "0.12.2",
+      "numpy": "1.23.5",
+      "ai4bharat-transliteration": "1.1.3"
+    }
+  }
+}

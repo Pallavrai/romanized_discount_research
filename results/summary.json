@@ -1,0 +1,80 @@
+{
+  "sentences": 8847,
+  "devanagari_words": 174017,
+  "tokenizers": 12,
+  "tokenizer_labels": [
+    "GPT-2",
+    "XLM-R",
+    "mT5",
+    "cl100k_base",
+    "Llama 2",
+    "Llama 3",
+    "Mistral Tekken",
+    "o200k_base",
+    "Qwen3",
+    "Sarvam-1",
+    "Gemma 3",
+    "Llama 4"
+  ],
+  "earliest_year": 2019,
+  "bootstrap": {
+    "resamples": 10000,
+    "seed": 20261012
+  },
+  "discount_hum_median_by_generation": {
+    "G1": 1.833,
+    "G2": 1.182,
+    "G3": 0.863
+  },
+  "tokenizers_per_generation": {
+    "G1": 4,
+    "G2": 6,
+    "G3": 2
+  },
+  "discount_hum_below_1": [
+    "XLM-R",
+    "Mistral Tekken",
+    "o200k_base",
+    "Sarvam-1",
+    "Gemma 3",
+    "Llama 4"
+  ],
+  "discount_hum_ci_entirely_below_1": [
+    "XLM-R",
+    "Mistral Tekken",
+    "o200k_base",
+    "Sarvam-1",
+    "Gemma 3",
+    "Llama 4"
+  ],
+  "gap_xlit_percent": {
+    "mean": -11.5,
+    "min": -13.75,
+    "max": -8.86,
+    "min_tokenizer": "mT5",
+    "max_tokenizer": "Sarvam-1"
+  },
+  "gap_itr_percent": {
+    "mean": -9.43,
+    "min": -12.34,
+    "max": -7.2,
+    "min_tokenizer": "Gemma 3",
+    "max_tokenizer": "mT5"
+  },
+  "kendall_tau_hum_vs_xlit": {
+    "tau": 0.939,
+    "p": 3.2150205761316875e-07,
+    "ci95": [
+      0.909,
+      0.939
+    ]
+  },
+  "most_efficient": {
+    "hum": "Gemma 3",
+    "xlit": "Gemma 3"
+  },
+  "moved_2_or_more_places": [
+    "o200k_base"
+  ],
+  "gap_xlit_rescored_percent_mean": -4.92
+}

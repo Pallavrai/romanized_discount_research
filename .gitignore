@@ -1,0 +1,14 @@
+# Paper draft and working notes: not part of the public code
+*.docx
+~$*
+CLAUDE.md
+notes/
+
+# Dakshina text and downloads. The paper redistributes token counts only.
+data/
+dakshina_dataset_v1.0.tar
+outputs.zip
+
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

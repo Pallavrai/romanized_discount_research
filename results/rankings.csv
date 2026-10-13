@@ -1,0 +1,13 @@
+name,label,gen,year,rank_hum,rank_xlit,shift
+gpt2,GPT-2,G1,2019,10,10,0
+xlmr,XLM-R,G1,2019,2,3,1
+mt5,mT5,G1,2020,3,4,1
+cl100k_base,cl100k_base,G1,2022,8,8,0
+llama2,Llama 2,G2,2023,11,11,0
+llama3,Llama 3,G2,2024,7,7,0
+mistral_tekken,Mistral Tekken,G2,2024,6,6,0
+o200k_base,o200k_base,G2,2024,4,2,-2
+qwen3,Qwen3,G2,2024,9,9,0
+sarvam1,Sarvam-1,G2,2024,12,12,0
+gemma3,Gemma 3,G3,2025,1,1,0
+llama4,Llama 4,G3,2025,5,5,0
