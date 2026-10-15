@@ -1,7 +1,22 @@
 # Token cost of human-romanized Hindi across tokenizer generations
 
 Code for the paper *Is Romanization Still a Discount? Measuring the Token Cost of Human-Romanized Hindi
-Across Tokenizer Generations* by Pallav Rai.
+Across Tokenizer Generations* by Pallav Rai and
+Anand Kumar Rai.
+
+Preprint: [doi.org/10.5281/zenodo.23385568](https://doi.org/10.5281/zenodo.23385568)
+
+```bibtex
+@misc{rai2026romanization,
+  title     = {Is Romanization Still a Discount? Measuring the Token Cost of Human-Romanized {H}indi Across Tokenizer Generations},
+  author    = {Rai, Pallav and Rai, Anand Kumar},
+  year      = {2026},
+  publisher = {Zenodo},
+  note      = {Preprint},
+  doi       = {10.5281/zenodo.23385568},
+  url       = {https://doi.org/10.5281/zenodo.23385568}
+}
+```
 
 The pipeline counts how many tokens the same Hindi sentences need in four forms, with open tokenizers
 released between 2019 and 2026. No model weights are loaded and no text is generated.
